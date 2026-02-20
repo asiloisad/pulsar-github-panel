@@ -1,0 +1,63 @@
+{
+  "name": "github-panel",
+  "main": "./lib/index",
+  "version": "0.0.0",
+  "description": "A GitHub integration panel",
+  "repository": "https://github.com/asiloisad/pulsar-github-panel",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.100.0"
+  },
+  "dependencies": {
+    "classnames": "2.5.1",
+    "dayjs": "^1.11.19",
+    "dompurify": "3.3.1",
+    "keytar": "7.9.0",
+    "marked": "15.0.7",
+    "node-emoji": "^2.2.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-relay": "20.1.1",
+    "react-select": "^5.10.2",
+    "react-tabs": "6.1.0",
+    "relay-runtime": "20.1.1",
+    "what-the-diff": "0.6.0",
+    "yubikiri": "2.0.0"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    },
+    "metrics-reporter": {
+      "versions": {
+        "^1.1.0": "consumeReporter"
+      }
+    }
+  },
+  "configSchema": {
+    "openGitHubTabOnStart": {
+      "order": 1,
+      "type": "boolean",
+      "default": false,
+      "description": "Automatically open the GitHub tab when the editor starts"
+    },
+    "debug": {
+      "order": 2,
+      "type": "boolean",
+      "default": false,
+      "description": "Log additional debug information to the console, including caught errors and diagnostics"
+    }
+  },
+  "deserializers": {
+    "IssueishDetailItem": "createIssueishPaneItemStub",
+    "IssueishPaneItem": "createIssueishPaneItemStub",
+    "GithubDockItem": "createDockItemStub",
+    "ReviewsStub": "createReviewsStub"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.5"
+  }
+}
