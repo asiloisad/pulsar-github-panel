@@ -6,12 +6,12 @@ Fork of [github](https://github.com/pulsar-edit/github), but GitHub-specific fea
 
 ## Features
 
-- **Pull requests** -- Open and inspect pull requests with Overview, Build Status, Commits, and Files Changed tabs
-- **Code reviews** -- View review comments and threads directly in the editor
-- **Comment decorations** -- Show review comments as inline decorations on the current branch
-- **Issue/PR opener** -- Open any issue or pull request by URL
-- **Repository management** -- Create and publish repositories to GitHub
-- **Status bar** -- GitHub icon for quick panel access
+- **Pull requests**: Open and inspect pull requests with Overview, Build Status, Commits, and Files Changed tabs.
+- **Code reviews**: View review comments and threads directly in the editor.
+- **Comment decorations**: Show review comments as inline decorations on the current branch.
+- **Issue/PR opener**: Open any issue or pull request by URL.
+- **Repository management**: Create and publish repositories to GitHub.
+- **Status bar**: GitHub icon for quick panel access.
 
 ## Installation
 
