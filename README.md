@@ -17,7 +17,7 @@ Fork of [github](https://github.com/pulsar-edit/github), but GitHub-specific fea
 
 To install, search for [github-panel](https://web.pulsar-edit.dev/packages/github-panel) in the Install pane of the Pulsar settings or run `ppm install github-panel`. Alternatively, run `ppm install asiloisad/pulsar-github-panel` to install directly from the GitHub repository.
 
-Requires [git-panel](https://web.pulsar-edit.dev/packages/git-panel).
+Requires [git-panel](https://github.com/asiloisad/pulsar-git-panel).
 
 **Note**: This package automatically disables the built-in `github` package to avoid conflicts.
 
@@ -25,8 +25,8 @@ Requires [git-panel](https://web.pulsar-edit.dev/packages/git-panel).
 
 Commands available in `.workspace`:
 
-- `github-panel:toggle-github-panel-tab`: <kbd>Ctrl+8</kbd> toggle GitHub panel visibility,
-- `github-panel:toggle-github-panel-tab-focus`: <kbd>Ctrl+Shift+8</kbd> toggle and focus the GitHub panel,
+- `github-panel:toggle-github-panel-tab`: toggle GitHub panel visibility,
+- `github-panel:toggle-github-panel-tab-focus`: toggle and focus the GitHub panel,
 - `github-panel:open-issue-or-pull-request`: open an issue or PR by URL,
 - `github-panel:create-repository`: create a new GitHub repository,
 - `github-panel:publish-repository`: publish a local repository to GitHub,
@@ -34,9 +34,9 @@ Commands available in `.workspace`:
 
 Commands available in `.github-panel-Reviews`:
 
-- `github-panel:more-context`: <kbd>Cmd/Ctrl+=</kbd> show more review context,
-- `github-panel:less-context`: <kbd>Cmd/Ctrl+-</kbd> show less review context,
-- `github-panel:submit-comment`: <kbd>Cmd/Ctrl+Enter</kbd> submit review comment.
+- `github-panel:more-context`: show more review context,
+- `github-panel:less-context`: show less review context,
+- `github-panel:submit-comment`: submit review comment.
 
 ## Contributing
 
